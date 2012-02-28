@@ -118,6 +118,7 @@ namespace WindowsPhoneGame1
         } 
 
             base.Update(gameTime);
+            
         }
 
         /// <summary>
@@ -127,6 +128,8 @@ namespace WindowsPhoneGame1
         protected override void Draw(GameTime gameTime)
         {
             GraphicsDevice.Clear(Color.CornflowerBlue);
+
+            //git test
 
             // TODO: Add your drawing code here
             RasterizerState rasterizerState = new RasterizerState();  
